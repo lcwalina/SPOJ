@@ -1,3 +1,16 @@
+# Ignore all
+*
+
+# Unignore files with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+
+# Unignore makefile & remover
+!makefile
+!remover
+
 # Object files
 *.o
 *.ko
@@ -29,4 +42,4 @@
 *.hex
 
 # Debug files
-*.dSYM/
+*.dSYM
