@@ -7,9 +7,10 @@
 # Unignore all dirs
 !*/
 
-# Unignore makefile & remover
+# Unignore makefile & remover & gitignore
 !makefile
 !remover
+!.gitignore
 
 # Object files
 *.o
